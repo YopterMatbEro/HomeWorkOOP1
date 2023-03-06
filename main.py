@@ -20,7 +20,7 @@ class Student:
             else:
                 lecturer.grades[course] = [grade]
         else:
-            return 'Ошибка'
+            return 'error'
 
     def __str__(self):
         res = f'''
